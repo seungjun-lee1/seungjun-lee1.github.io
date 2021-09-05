@@ -10,6 +10,7 @@ body {
 .main-div {
     width: 100%;
     padding: 10px;
+    height: 500px;
 }
 
 .w-100 {
@@ -112,18 +113,27 @@ td,th {
     color: white;
 }
 
+
 .btn-coral:hover {
     background-color: chocolate;
-    font-size:23px;
 }
-
 /* 
 .btn:focus {
     background-color: coral;
 }
  */
-
  .btn-coral:active {
+    background-color: rgb(150, 75, 22);
+}
+
+.btn-brown {
+    background-color: brown;
+    color: white;
+}
+.btn-brown:hover {
+    background-color: coral;
+}
+ .btn-brown:active {
     background-color: rgb(150, 75, 22);
 }
 
